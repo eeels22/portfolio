@@ -1,13 +1,13 @@
-export default function ActivityCard({ activity }) {
+export default function ActivityCard({ data }) {
   return (
     <div>
-      <h3>{activity.title}</h3>
-      <p>{activity.location}</p>
+      <h3>{data.title}</h3>
+      <p>{data.location}</p>
       <p>
-        {activity.startDate} to {activity.endDate}
+        {data.startDate} to {data.endDate}
       </p>
-      <p>{activity.description}</p>
-      <span>{activity.category}</span>
+      <p>{data.description}</p>
+      <span>{data.category}</span>
     </div>
   );
 }
