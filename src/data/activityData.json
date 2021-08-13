@@ -1,0 +1,58 @@
+{
+  "activities": [
+    {
+      "id": 1,
+      "category": "work",
+      "title": "Communications Officer",
+      "location": "The University of Edinburgh, UK",
+      "startDate": "DEC 2017",
+      "endDate": "DEC 2020",
+      "description": "Planned digital communications strategy for a successful crowdfunding appeal. Relaunched the visual identity for our student grant scheme. Increased compliance of web content with accessibility guidelines. Researched, wrote, and edited graduate stories."
+    },
+    {
+      "id": 2,
+      "category": "work",
+      "title": "Development Coordinator, Supporter Engagement",
+      "location": "The University of Edinburgh, UK",
+      "startDate": "OCT 2014",
+      "endDate": "DEC 2017",
+      "description": "Managed a busy programme of direct mail fundraising appeals. Planned data segmentation and analysed results. Devised creative concepts, designed materials and wrote effective copy."
+    },
+    {
+      "id": 3,
+      "category": "work",
+      "title": "Development Assistant (Research)",
+      "location": "The University of Edinburgh, UK",
+      "startDate": "MAY 2014",
+      "endDate": "OCT 2014",
+      "description": "Researched prospective donors, trusts and foundations in the UK and Asia."
+    },
+    {
+      "id": 4,
+      "category": "education",
+      "title": "Novare Potential Academy",
+      "location": "Novare Potential, Sweden (Remote)",
+      "startDate": "JUL 2021",
+      "endDate": "NOV 2021 (expected)",
+      "description": "Focus on frontend technologies, deepening knowledge of React, TypeScript, Sass, software engineering."
+    },
+    {
+      "id": 5,
+      "category": "education",
+      "title": "Software Development Academy",
+      "location": "KTH Royal Institute of Technology in partnership with Novare Potential, Sweden (Remote)",
+      "startDate": "FEB 2021",
+      "endDate": "MAY 2021",
+      "description": "15 weeks of intensive training covering object-oriented programming with Java, software engineering and web development."
+    },
+    {
+      "id": 6,
+      "category": "education",
+      "title": "Master of Arts in French and German",
+      "location": "KTH Royal Institute of Technology in partnership with Novare Potential, Sweden",
+      "startDate": "JUL 2013",
+      "endDate": "SEP 2009",
+      "description": "First Class. Included exchange semesters at Freie Universität Berlin and L'Université de Franche-Comté."
+    }
+  ]
+}
