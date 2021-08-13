@@ -15,7 +15,7 @@ export default function ProjectCard({ project }) {
       <h3>{project.title}</h3>
       <p>{project.description}</p>
       <h4>Tech stack</h4>
-      <ol>{techStackList}</ol>
+      <ul>{techStackList}</ul>
       <a href={project.repoLink}>Source code</a>
       <a href={project.hostedLink}>Live site</a>
     </div>

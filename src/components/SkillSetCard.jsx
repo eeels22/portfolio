@@ -6,7 +6,7 @@ export default function SkillSetCard({ data }) {
   return (
     <div>
       <h3>{data.category}</h3>
-      <ol>{skillsList}</ol>
+      <ul>{skillsList}</ul>
     </div>
   );
 }

@@ -11,7 +11,7 @@ export default function ProjectSection() {
   return (
     <section>
       <h2>Projects</h2>
-      <ol>{projectCardArray}</ol>
+      <ul>{projectCardArray}</ul>
     </section>
   );
 }
