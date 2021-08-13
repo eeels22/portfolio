@@ -1,0 +1,27 @@
+{
+  "skillSets": [
+    {
+      "id": 1,
+      "category": "Front end",
+      "skills": [
+        "React",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "Recoil",
+        "Figma"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Back end",
+      "skills": ["Java", "Spring", "REST Api", "Hibernate", "JUnit", "Gradle"]
+    },
+    {
+      "id": 3,
+      "category": "Other",
+      "skills": ["Git", "Github", "Scrum"]
+    }
+  ]
+}
