@@ -13,7 +13,7 @@
       "id": 2,
       "title": "EIKA shopping list",
       "techStack": ["React", "TypeScript", "HTML", "CSS"],
-      "imageFileName": "",
+      "imageFileName": "package-tracker.png",
       "repoLink": "https://github.com/eeels22/eika-shopping-list",
       "hostedLink": "https://eika-shopping-list-ts.web.app/",
       "description": "A shopping list app that lets users keep track of things to buy at the store."
@@ -30,7 +30,7 @@
         "Postgres",
         "Hibernate"
       ],
-      "imageFileName": "",
+      "imageFileName": "package-tracker.png",
       "repoLink": "https://github.com/eeels22/cuddly",
       "hostedLink": "",
       "description": "Cuddly is a prototype social media platform for everything pet related"
@@ -39,7 +39,7 @@
       "id": 4,
       "title": "Social media dashboard",
       "techStack": ["React", "HTML", "CSS"],
-      "imageFileName": "",
+      "imageFileName": "package-tracker.png",
       "repoLink": "https://github.com/eeels22/dashboard-theme-toggle",
       "hostedLink": "",
       "description": "My solution to the 'Social media dashboard with theme switcher' challenge on Frontend Mentor."
