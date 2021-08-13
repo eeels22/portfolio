@@ -2,7 +2,7 @@
   "activities": [
     {
       "id": 1,
-      "category": "work",
+      "category": "Work",
       "title": "Communications Officer",
       "location": "The University of Edinburgh, UK",
       "startDate": "DEC 2017",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "category": "work",
+      "category": "Work",
       "title": "Development Coordinator, Supporter Engagement",
       "location": "The University of Edinburgh, UK",
       "startDate": "OCT 2014",
@@ -20,7 +20,7 @@
     },
     {
       "id": 3,
-      "category": "work",
+      "category": "Work",
       "title": "Development Assistant (Research)",
       "location": "The University of Edinburgh, UK",
       "startDate": "MAY 2014",
@@ -29,7 +29,7 @@
     },
     {
       "id": 4,
-      "category": "education",
+      "category": "Education",
       "title": "Novare Potential Academy",
       "location": "Novare Potential, Sweden (Remote)",
       "startDate": "JUL 2021",
@@ -38,7 +38,7 @@
     },
     {
       "id": 5,
-      "category": "education",
+      "category": "Education",
       "title": "Software Development Academy",
       "location": "KTH Royal Institute of Technology in partnership with Novare Potential, Sweden (Remote)",
       "startDate": "FEB 2021",
@@ -47,7 +47,7 @@
     },
     {
       "id": 6,
-      "category": "education",
+      "category": "Education",
       "title": "Master of Arts in French and German",
       "location": "KTH Royal Institute of Technology in partnership with Novare Potential, Sweden",
       "startDate": "JUL 2013",
