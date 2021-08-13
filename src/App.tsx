@@ -11,6 +11,7 @@ function App() {
       <Header />
       <Intro />
       <CardSection sectionHeading="Skills" />
+      <CardSection sectionHeading="Work and education" />
       <ProjectSection />
     </div>
   );
