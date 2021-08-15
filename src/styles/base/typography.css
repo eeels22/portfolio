@@ -10,6 +10,7 @@ h3,
 h4 {
   font-family: "Noto Serif", serif;
   font-weight: 700;
+  margin-bottom: 0.7em;
 }
 
 h1 {
@@ -30,4 +31,8 @@ h4 {
 
 p {
   font-size: var(--font-size-medium-small);
+}
+
+span {
+  font: inherit;
 }
