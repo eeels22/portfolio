@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div>
+    <section>
       <h2>Contact me</h2>
       <p>
         Interested in my work? Connect with me on Linkedin or send me an email!
@@ -9,6 +9,6 @@ export default function Contact() {
         <li>LinkedIn</li>
         <li>Email</li>
       </ul>
-    </div>
+    </section>
   );
 }
