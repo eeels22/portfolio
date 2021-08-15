@@ -12,8 +12,8 @@ function App() {
       <Header />
       <Intro />
       <CardSection sectionHeading="Skills" />
-      <CardSection sectionHeading="Work and education" />
       <ProjectSection />
+      <CardSection sectionHeading="Work and education" />
       <Contact />
     </div>
   );
