@@ -14,7 +14,7 @@ interface ActivityCardProps {
 
 export default function ActivityCard({ data }: ActivityCardProps) {
   return (
-    <div className="ActivityCard card">
+    <div className={`ActivityCard card ${data.category}`}>
       <h3>{data.title}</h3>
       <p>{data.location}</p>
       <p>
