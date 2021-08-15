@@ -7,6 +7,7 @@
       "imageFileName": "package-tracker.png",
       "repoLink": "https://github.com/eeels22/package-tracker",
       "hostedLink": "https://package-tracker-sda9.web.app/",
+      "demoLink": "",
       "description": "An app that displays a list of tracked parcels fetched from an API endpoint. Select information in English or Swedish language."
     },
     {
@@ -16,6 +17,7 @@
       "imageFileName": "eika.png",
       "repoLink": "https://github.com/eeels22/eika-shopping-list",
       "hostedLink": "https://eika-shopping-list-ts.web.app/",
+      "demoLink": "",
       "description": "A shopping list app that lets users keep track of things to buy at the store."
     },
     {
@@ -43,6 +45,7 @@
       "imageFileName": "dashboard-dark.png",
       "repoLink": "https://github.com/eeels22/dashboard-theme-toggle",
       "hostedLink": "https://dashboard-theme-toggle.web.app/",
+      "demoLink": "",
       "description": "My solution to the 'Social media dashboard with theme switcher' challenge on Frontend Mentor."
     }
   ]
