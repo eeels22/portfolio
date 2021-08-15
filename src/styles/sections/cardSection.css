@@ -1,0 +1,10 @@
+.CardSection {
+  display: grid;
+  justify-content: center;
+}
+
+.SkillSetCard,
+.ActivityCard {
+  background-color: var(--color-primary);
+  color: var(--color-neutral-tint);
+}
