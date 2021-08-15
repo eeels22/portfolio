@@ -1,4 +1,19 @@
-export default function ProjectCard({ project }) {
+// Interface
+interface Project {
+  id: number;
+  title: string;
+  techStack: string[];
+  imageFileName: string;
+  repoLink: string;
+  hostedLink: string;
+  description: string;
+}
+
+interface ProjectCardProps {
+  project: Project;
+}
+
+export default function ProjectCard({ project }: ProjectCardProps) {
   const imageObject = require(`../assets/images/projects/${project.imageFileName}`);
   const imageURL = imageObject.default;
 

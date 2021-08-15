@@ -1,10 +1,10 @@
 // Project files
 import "./styles/style.css";
-import Header from "./components/Header";
-import Intro from "./components/Intro";
-import CardSection from "./components/CardSection";
-import ProjectSection from "./components/ProjectSection";
-import Contact from "./components/Contact";
+import Header from "./sections/Header";
+import Intro from "./sections/Intro";
+import CardSection from "./sections/CardSection";
+import ProjectSection from "./sections/ProjectSection";
+import Contact from "./sections/Contact";
 
 function App() {
   return (

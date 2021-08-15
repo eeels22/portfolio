@@ -1,10 +1,14 @@
 // Project files
-import SkillSetCard from "./SkillSetCard";
+import SkillSetCard from "../components/SkillSetCard";
 import skillsData from "../data/skillsData.json";
-import ActivityCard from "./ActivityCard";
+import ActivityCard from "../components/ActivityCard";
 import activityData from "../data/activityData.json";
 
-export default function CardSection({ sectionHeading }) {
+// Interface
+interface CardSectionProps {
+  sectionHeading: string;
+}
+export default function CardSection({ sectionHeading }: CardSectionProps) {
   // Components
   let cardArray;
   if (sectionHeading === "Skills") {
@@ -18,7 +22,7 @@ export default function CardSection({ sectionHeading }) {
   }
 
   return (
-    <section>
+    <section className="CardSection">
       <h2>{sectionHeading}</h2>
       {cardArray}
     </section>

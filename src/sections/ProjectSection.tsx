@@ -1,5 +1,5 @@
 // Project files
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "../components/ProjectCard";
 import projectsData from "../data/projectsData.json";
 
 export default function ProjectSection() {

@@ -3,9 +3,9 @@ import profilePicture from "../assets/images/profile-pic.jpg";
 
 export default function Intro() {
   return (
-    <section>
+    <section className="Intro">
       <h1>Hi, I'm En-Chi</h1>
-      <img src={profilePicture} alt="En-Chi headshot" />
+      <img src={profilePicture} alt="En-Chi headshot" className="profile-pic" />
       <p>
         Hej Hej! I'm a Taiwanese-Brit now based in Sweden and training as a
         software developer thanks to KTH and Novare Potential. I previously
