@@ -1,0 +1,15 @@
+.projects-container {
+  display: grid;
+}
+
+@media (min-width: 1000px) {
+  .projects-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+
+.ProjectCard {
+  background-color: var(--color-neutral-tint);
+  color: var(--color-dark);
+}
