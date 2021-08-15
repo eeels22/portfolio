@@ -1,11 +1,19 @@
+.ProjectSection {
+  display: grid;
+  row-gap: 1rem;
+  justify-content: stretch;
+}
+
 .ProjectCard {
   display: grid;
   background-color: var(--color-neutral-tint);
   color: var(--color-dark);
+  justify-items: stretch;
 }
 
 .projects-container {
   display: grid;
+  gap: 1rem;
 }
 
 .project-image {
@@ -17,6 +25,10 @@
 @media (min-width: 960px) {
   .projects-container {
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+  }
+
+  .narrow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }

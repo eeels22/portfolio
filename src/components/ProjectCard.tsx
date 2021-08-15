@@ -34,11 +34,17 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       )}
       <h3>{project.title}</h3>
       <p>{project.description}</p>
-      <h4>Tech stack</h4>
-      <ul>{techStackList}</ul>
-      <a href={project.repoLink}>Source code</a>
-      {project.hostedLink && <a href={project.hostedLink}>Live site</a>}
-      {project.demoLink && <a href={project.demoLink}>Watch a demo</a>}
+      <div className="narrow">
+        <div>
+          <h4>Tech stack</h4>
+          <ul>{techStackList}</ul>
+        </div>
+        <div className="project-links">
+          <a href={project.repoLink}>Source code</a>
+          {project.hostedLink && <a href={project.hostedLink}>Live site</a>}
+          {project.demoLink && <a href={project.demoLink}>Watch a demo</a>}
+        </div>
+      </div>
     </div>
   );
 }
