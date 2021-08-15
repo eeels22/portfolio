@@ -31,7 +31,7 @@
       "id": 4,
       "category": "Education",
       "title": "Novare Potential Academy",
-      "location": "Novare Potential, Sweden (Remote)",
+      "location": "Novare Potential, Sweden",
       "startDate": "JUL 2021",
       "endDate": "NOV 2021 (expected)",
       "description": "Focus on frontend technologies, deepening knowledge of React, TypeScript, Sass, software engineering."
@@ -40,7 +40,7 @@
       "id": 5,
       "category": "Education",
       "title": "Software Development Academy",
-      "location": "KTH Royal Institute of Technology in partnership with Novare Potential, Sweden (Remote)",
+      "location": "KTH in partnership with Novare Potential, Sweden",
       "startDate": "FEB 2021",
       "endDate": "MAY 2021",
       "description": "15 weeks of intensive training covering object-oriented programming with Java, software engineering and web development."
