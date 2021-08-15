@@ -1,0 +1,9 @@
+.Intro {
+  display: grid;
+  grid-template-rows: repeat(3, min-content);
+  row-gap: 1rem;
+}
+
+.profile-pic {
+  border-radius: 50%;
+}
