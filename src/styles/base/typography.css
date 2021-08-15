@@ -11,6 +11,7 @@ h4 {
   font-family: "Noto Serif", serif;
   font-weight: 700;
   margin-bottom: 0.7em;
+  color: var(--color-dark);
 }
 
 h1 {
