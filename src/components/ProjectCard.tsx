@@ -23,7 +23,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
   ));
 
   return (
-    <div className="ProjectCard">
+    <div className="ProjectCard card">
       {imageURL && (
         <img
           src={imageURL}

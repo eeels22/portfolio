@@ -13,7 +13,7 @@ export default function SkillSetCard({ data }: SkillSetCardProps) {
   // Components
   const skillsList = data.skills.map((skill) => <li key={skill}>{skill}</li>);
   return (
-    <div className="SkillSetCard">
+    <div className="SkillSetCard card">
       <h3>{data.category}</h3>
       <ul>{skillsList}</ul>
     </div>
