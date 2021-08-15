@@ -33,6 +33,7 @@
       "imageFileName": "cuddly.png",
       "repoLink": "https://github.com/eeels22/cuddly",
       "hostedLink": "",
+      "demoLink": "https://www.youtube.com/watch?v=Ts-Rs4EMb_Q&t=4213s",
       "description": "Cuddly is a prototype social media platform for everything pet related"
     },
     {
@@ -41,7 +42,7 @@
       "techStack": ["React", "HTML", "CSS"],
       "imageFileName": "dashboard-dark.png",
       "repoLink": "https://github.com/eeels22/dashboard-theme-toggle",
-      "hostedLink": "",
+      "hostedLink": "https://dashboard-theme-toggle.web.app/",
       "description": "My solution to the 'Social media dashboard with theme switcher' challenge on Frontend Mentor."
     }
   ]

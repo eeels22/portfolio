@@ -6,6 +6,7 @@ interface Project {
   imageFileName: string;
   repoLink: string;
   hostedLink: string;
+  demoLink: string;
   description: string;
 }
 
@@ -36,7 +37,8 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       <h4>Tech stack</h4>
       <ul>{techStackList}</ul>
       <a href={project.repoLink}>Source code</a>
-      <a href={project.hostedLink}>Live site</a>
+      {project.hostedLink && <a href={project.hostedLink}>Live site</a>}
+      {project.demoLink && <a href={project.demoLink}>Watch a demo</a>}
     </div>
   );
 }
