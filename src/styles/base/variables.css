@@ -1,0 +1,32 @@
+:root {
+  /* Color
+  ----------------------------*/
+  --color-primary: hsla(209, 30%, 40%, 1);
+  --color-primary-shade: hsla(209, 30%, 30%, 1);
+  --color-primary-tint: hsla(209, 30%, 80%, 1);
+  --color-neutral: hsla(25, 50%, 78%, 1);
+  --color-neutral-shade: hsla(25, 50%, 50%, 1);
+  --color-neutral-tint: hsla(25, 50%, 95%, 1);
+  --color-dark: hsla(230, 40%, 18%, 1);
+  --color-white: #ffffff;
+  --color-error: hsla(358, 47%, 48%, 1);
+
+  /* Space
+  ----------------------------*/
+  --space-x-small: 4px;
+  --space-small: 8px;
+  --space-medium: 16px;
+  --space-medium-big: 20px;
+  --space-big: 24px;
+  --space-x-big: 32px;
+  --space-xx-big: 48px;
+
+  /* Font sizes
+  ----------------------------*/
+  --font-size-small: 12px;
+  --font-size-medium-small: 16px;
+  --font-size-medium: 18px;
+  --font-size-medium-big: 24x;
+  --font-size-big: 30px;
+  --font-size-x-big: 36px;
+}
