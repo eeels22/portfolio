@@ -1,7 +1,6 @@
 .CardSection {
   display: grid;
-  justify-items: center;
-  row-gap: 2rem;
+  row-gap: 1rem;
   width: 100%;
 }
 
@@ -11,10 +10,16 @@
   color: var(--color-neutral-tint);
 }
 
+.SkillSetCard h3,
+.ActivityCard h3 {
+  color: var(--color-neutral-tint);
+}
+
 .card-container {
   display: grid;
   justify-content: stretch;
   width: 100%;
+  gap: 1rem;
 }
 
 .Education {
@@ -25,16 +30,14 @@
   border-top: 0.5rem solid var(--color-neutral-shade);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .card-container {
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
   }
 }
 
 @media (min-width: 1000px) {
   .card-container {
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
   }
 }
