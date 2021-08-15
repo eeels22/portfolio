@@ -1,15 +1,22 @@
+.ProjectCard {
+  display: grid;
+  background-color: var(--color-neutral-tint);
+  color: var(--color-dark);
+}
+
 .projects-container {
   display: grid;
 }
 
-@media (min-width: 1000px) {
+.project-image {
+  border-radius: 0.5rem;
+  justify-self: center;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 960px) {
   .projects-container {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
-}
-
-.ProjectCard {
-  background-color: var(--color-neutral-tint);
-  color: var(--color-dark);
 }
