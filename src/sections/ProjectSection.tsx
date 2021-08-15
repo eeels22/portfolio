@@ -9,9 +9,9 @@ export default function ProjectSection() {
   ));
 
   return (
-    <section>
+    <section className="ProjectSection">
       <h2>Projects</h2>
-      <ul>{projectCardArray}</ul>
+      <div className="projects-container">{projectCardArray}</div>
     </section>
   );
 }

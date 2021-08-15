@@ -24,7 +24,7 @@ export default function CardSection({ sectionHeading }: CardSectionProps) {
   return (
     <section className="CardSection">
       <h2>{sectionHeading}</h2>
-      {cardArray}
+      <div className="card-container">{cardArray}</div>
     </section>
   );
 }

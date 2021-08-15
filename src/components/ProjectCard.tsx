@@ -23,9 +23,13 @@ export default function ProjectCard({ project }: ProjectCardProps) {
   ));
 
   return (
-    <div>
+    <div className="ProjectCard">
       {imageURL && (
-        <img src={imageURL} alt={`${project.title} project screenshot`} />
+        <img
+          src={imageURL}
+          alt={`${project.title} project screenshot`}
+          className="project-image"
+        />
       )}
       <h3>{project.title}</h3>
       <p>{project.description}</p>
