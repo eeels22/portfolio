@@ -9,6 +9,7 @@ export default function Contact() {
         <li>LinkedIn</li>
         <li>Email</li>
       </ul>
+      <p>Thanks for dropping by!</p>
     </section>
   );
 }
